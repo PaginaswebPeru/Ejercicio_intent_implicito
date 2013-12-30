@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btn_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="llamar una paginas web" />
+
+    <Button
+        android:id="@+id/btn_llamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="llamar a un numero tel." />
+
+    <Button
+        android:id="@+id/btn_camara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="llamar camara" />
+
+    <Button
+        android:id="@+id/btnPaginasweb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paginasweb.pe" />
+
+</LinearLayout>
